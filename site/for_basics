@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>"My First Design"</title>
+	<style>
+		body{
+			background-image:linear-gradient(purple,pink,violet);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position:center;
+			position: relative;
+		}
+
