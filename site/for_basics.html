@@ -1,34 +1,119 @@
-<*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Verdana', sans-serif;
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width ,initial scale=1">
+	<title>Practice</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+		}
+		h1{
+			
+			margin:40px;
+			text-align: center;
+
+		}
+		section{
+			
+			
+			
+			margin:5px;
+		}
+		
+		#p1{
+			
+			margin:10px;
+			border:2px solid black;
+			position:relative;
+			background-color: gray;
+
+
+			
+		}
+		h2{
+			position: absolute;
+			top:0;
+			right:0;
+			border-bottom:1px solid black;
+			border-left: 1px solid black;
+			padding:2px 8px 2px 8px;
+			
+		}
+		p{
+			margin-top: 25px;
+			padding:10px;
+			background-color: gray;
+		}
+		#chik{
+			background-color: pink;
+		}
+		#beaf{
+			background-color: pink;
+			padding: 2px 30px 2px 30px;
+		}
+		#sushi{
+			background-color:pink; 
+			padding: 2px 30px 2px 30px;
+		}
+		
+		#div1{
+			
+			
+				float:left;}
+		@media (min-width:992px){
+#div1{
+	float:left;
+	width:33.33%;
 }
-html, body{
-  height: 100vh;
-  background: linear-gradient(to bottom, #7927b2, #fb3182);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.container{
-  width: 90%;
-  height: 400px;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 30px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (min-width:768px) and (max-width:991px){
+#div1{
+	float:left;
+	width:50%;
 }
-p{
-  font-size: 90px;
-  font-weight: bold;
-  background: linear-gradient(to right, #7927b2, #fb3182);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 350px;
-  text-transform: uppercase;
-  line-height: .77;
+#div1.my{
+	float:left;
+	width:100%;
+
 }
+}
+@media (max-width:767px){
+#div1{
+	float:left;
+	width:100%;
+}
+section{margin:50px;}
+}
+
+
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<section class="row">
+	
+		<div id="div1">
+			<div id="p1">
+				<h2 id="chik">Chicken</h2>
+				<p>
+			lorem ipsum dolor sit amet,contetu adipsing elit, sed do eiusmod temper incididunt lit labore et dolore magna aliqua ut enim ad minum vemiam quis nosteud exercitation ullamco loboris nisi ut aliquip ex ea commando consequet.</p>
+			</div>
+		</div>
+		<div id="div1">
+			<div id="p1">
+				<h2 id="beaf">Beef</h2>
+				<p>lorem ipsum dolor sit amet,contetu adipsing elit, sed do eiusmod temper incididunt lit labore et dolore magna aliqua ut enim ad minum vemiam quis nosteud exercitation ullamco loboris nisi ut aliquip ex ea commando consequet.</p>
+			</div>
+		</div>
+		<div id="div1" class="my">
+			<div id="p1">
+				<h2 id="sushi">Sushi</h2>
+				<p>lorem ipsum dolor sit amet,contetu adipsing elit, sed do eiusmod temper incididunt lit labore et dolore magna aliqua ut enim ad minum vemiam quis nosteud exercitation ullamco loboris nisi ut aliquip ex ea commando consequet.</p>
+			</div>
+		</div>
+
+</body>
+</html>
