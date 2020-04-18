@@ -6,7 +6,7 @@
 		}
 		h1{
 			
-			margin:20px;
+			margin:20px 20px 10px 20px;
 			text-align: center;
 
 		}
@@ -80,7 +80,7 @@
 	float:left;
 	width:100%;
 }
-section{margin: 5px 50px 5px 50px;
+section{margin: 0px 50px 0px 50px;
 }
 }
 
