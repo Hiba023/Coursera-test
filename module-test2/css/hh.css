@@ -1,0 +1,87 @@
+body{
+	background-color: #422040;
+	color:white;
+	font-size:16px;
+
+
+}
+#header-nav{
+	border-radius:0;
+	border:0;
+	
+	background-color: #bcd8c1;
+	text-decoration: none;
+}
+/*....HEADING STYLING...*/
+.navbar-brand h1 {
+	margin-left: -15px;
+	padding:5px;
+	margin-bottom: 0px;
+	margin-top: -10px;
+	text-decoration: none;
+	color:#422040;
+	text-shadow: 1px 1px 1px grey;
+	font-weight:bold;
+
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+
+	}
+
+	.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+		border:1px solid #422040 ;
+		border-radius: 0;
+
+
+	}
+	button.navbar-toggle{
+		margin-top: 10px;
+	}
+#nav-list a{
+	
+	text-align:center;
+	font-size: 1.2em;
+	color:#422040;
+	background-color: grey;
+	
+
+	border-bottom:1px solid #422040 ;
+}
+#nav-list{
+}
+
+.navbar-nav{
+	margin:0;
+}
+.navbar-collapse{
+	padding-left: 0;
+	padding-right: 0;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  opacity:0.6;
+}
+#chicken {
+	text-align: center;
+}
+.box1{
+	border:2px solid black;
+	margin-bottom:20px;
+	padding:10px;
+	background-color:grey ;
+}
+.box1:hover{
+box-shadow: 0 1px 5px 1px #cccccc;	
+}
+div.deco a{
+	color:#422040 ;
+	text-decoration: none;
+}
+div.deco  a:hover{
+	text-decoration: none;
+	text-shadow: 1px 1px 1px white; 
+}
